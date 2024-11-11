@@ -1,0 +1,231 @@
+/* -----ORIENTATION----- */
+
+@media screen and (max-width: 850px) {
+  body {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
+}
+
+/* -----STYLE SECTIONING TAGS----- */
+html {
+  scroll-behavior: smooth;
+}
+
+
+* { /* Reset the space of the webpage */
+  margin: 0px;
+  padding: 0px;
+}
+
+#homePage {
+  overflow-y: auto;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+#aboutPage {
+  overflow-y: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+#getInvolvedPage {
+  overflow-y: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+#toYouPage {
+  overflow-y: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+#methodGenerator {
+  overflow-y: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+/* -----STYLE FONT----- */
+@font-face: 'cocogoose';
+src: url('fonts/Cocogoose Pro-trial.ttf');
+
+@font-face: 'louis george cafe';
+src: url('fonts/Louis George Cafe.ttf');
+
+/* -----STYLE TEXT------ */
+h1 {
+  color: #872108;
+  font-family: 'cocogoose', sans-serif;*
+}
+
+h2 {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 20px;
+}
+/* -----All Text Within Yellow Box----- */
+.home {
+  margin-top: 2em;
+  margin: 5%;
+  padding: 3%;
+  background-color: #F2CD72;
+}
+
+.context {
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 20px;
+  font-family: 'louis george cafe', sans-serif;
+  color: #4E2C2E;
+}
+
+.contextHead {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 25px;
+  color: #271617;
+}
+
+/* -----All Text Within Green Box----- */
+.about {
+  margin: 5%;
+  padding: 3%;
+  background-color: #8EB098;
+}
+
+.facts {
+  padding: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 20px;
+  font-family: 'louis george cafe', sans-serif;
+  color: #213026;
+}
+
+.aboutHead {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 25px;
+  color: #111813;
+}
+
+.row {
+  margin-top: 50px;
+  justify-content: space-between;
+  display: flex;
+}
+/* -----All Text Within Blue Box----- */
+.getInvolved {
+  margin: 5%;
+  padding: 3%;
+  background-color: #9AB5D2;
+}
+
+.stuff {
+  padding: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 20px;
+  font-family: 'louis george cafe', sans-serif;
+  color: #213026;
+}
+
+.getInvolvedHead {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 25px;
+  color: #111813;
+}
+/* -----All Text Within Pink Box----- */
+.toYou {
+  margin: 5%;
+  padding: 3%;
+  background-color: #DF7285;
+}
+
+.help {
+  padding: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 20px;
+  font-family: 'louis george cafe', sans-serif;
+  color: #213026;
+}
+
+.toYouHead {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 25px;
+  color: #111813;
+}
+/* -----All Text Within White Box----- */
+.techsAndMethods {
+  margin: 5%;
+  padding: 3%;
+  background-color: #F2F2F2;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#methods {
+  padding: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 20px;
+  font-family: 'louis george cafe', sans-serif;
+  color: #292929;
+  text-align: center;
+}
+
+/* -----STYLE IMAGES----- */
+
+
+/* -----STYLE NAV BAR----- */
+ul {
+  background-color: #F2F2F2;
+  list-style-type: none;
+  padding: 20px;
+  overflow: hidden;
+  text-align: right;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+#title {
+  display: inline-block;
+  font-size: 20px;
+  float: left;
+  color: black;
+  font-family: 'cocogoose', sans-serif;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  margin-right: 25px;
+  font-size: 18px;
+  padding: 1em;
+  color: #474747;
+  font-family: 'cocogoose', sans-serif;
+  /* font-family: Verdana, Gill Sans; */
+}
+
+li a:hover {
+  background-color: #9AB5D2;
+}
+
+/* -----STYLE BUTTONS----- */
+
+#btn {
+  text-align: center;
+  size: 20px;
+}
+
+/* ADD MORE! */
