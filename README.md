@@ -1,6 +1,6 @@
  # Activist Toolkit
 
-A website to bring more awareness to the stigma surrounding youth mental health.
+A website to bring more awareness to the stigma surrounding mental health.
 
 ### Author
 My name is Yuxin Zeng and I created this the summer before my junior year of high school as a way to learn HTML and basic web-development! 
